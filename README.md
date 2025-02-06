@@ -1,0 +1,1 @@
+This repository demonstrates a bug where the CSS `calc()` function produces unexpected results when combining percentages and viewport units (e.g., `vw`, `vh`).  The `bug.css` file shows the problematic code, while `bugSolution.css` provides a corrected version.
