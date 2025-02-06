@@ -1,0 +1,1 @@
+The issue stems from the order of operations within the `calc()` function.  To correctly calculate values involving percentages and viewport units, ensure that the percentage calculations are performed before the addition/subtraction.  This can often be achieved by using parentheses.  See `bugSolution.css` for a corrected example.
